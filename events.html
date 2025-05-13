@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Event Handling Playground</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>JavaScript Event Handling Playground 🎉</h1>
+
+    <div>
+        <button id="colorChangeButton">Click me to change color!</button>
+    </div>
+
+    <div id="imageGallery">
+        <h2>Image Gallery</h2>
+        <img src="image1.jpg" id="galleryImage" alt="Gallery Image" width="300">
+        <button id="nextImage">Next Image</button>
+    </div>
+
+    <div id="tabs">
+        <button class="tabButton" data-tab="tab1">Tab 1</button>
+        <button class="tabButton" data-tab="tab2">Tab 2</button>
+        <div id="tabContent">
+            <div id="tab1" class="tab">Content for Tab 1</div>
+            <div id="tab2" class="tab" style="display: none;">Content for Tab 2</div>
+        </div>
+    </div>
+
+    <form id="registrationForm">
+        <h2>Registration Form</h2>
+        <input type="text" placeholder="Username" required id="username">
+        <input type="email" placeholder="Email" required id="email">
+        <input type="password" placeholder="Password" required id="password">
+        <button type="submit">Submit</button>
+        <div id="formFeedback"></div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
